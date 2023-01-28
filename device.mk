@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina/sound_trigger_platform_info.xml
 
 $(call inherit-product, device/oneplus/oneplus9/device.mk)
+#$(call inherit-product, device/oneplus/oneplus9pro/lemonadep.mk)
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
